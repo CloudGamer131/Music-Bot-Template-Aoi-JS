@@ -2,7 +2,11 @@
 
 A Discord Music Bot made in aoi.js with the Default Prefix "?"  
 
-Customizable setprefix prefix
+Customizable prefix
+
+`Set Prefix Command`
+
+`?setprefix your_prefix`
 
 # Want Slash Commands  Enabled in your server?
 
@@ -13,6 +17,10 @@ Want to use slash commands do prefixslash to enable
 # Support
 
 `Developer: Seen Development`
+
+`Website: https://seendevelopment.cf/`
+
+`WIKI's: https://wiki.seendevelopment.cf/`
 
 `Support Server: 
 https://dsc.gg/seen-development`
