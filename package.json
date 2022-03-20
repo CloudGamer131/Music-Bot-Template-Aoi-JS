@@ -1,13 +1,13 @@
 {
-  "name": "angelmusic",
-  "version": "1.0.0",
+  "name": "Music-Bot-Template-Aoi-JS",
+  "version": "0.1.0",
   "description": "A Discord Music Bot",
   "main": "index.js",
   "scripts": {
     "start": "node index.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "Seen Development |https://seendevelopment.cf/ ",
   "license": "ISC",
   "dependencies": {
     "@discordjs/opus": "^0.6.0",
