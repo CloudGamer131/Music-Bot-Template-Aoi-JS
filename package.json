@@ -1,0 +1,22 @@
+{
+  "name": "angelmusic",
+  "version": "1.0.0",
+  "description": "A Discord Music Bot",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@discordjs/opus": "^0.6.0",
+    "aoi.js": "^4.5.0",
+    "express": "^4.17.3",
+    "ffmpeg-static": "^4.4.0",
+    "node-opus": "^0.3.3",
+    "opusscript": "0.0.8",
+    "tweetnacl": "^1.0.3",
+    "ytdl-core": "^4.9.1"
+  }
+}
