@@ -35,4 +35,5 @@ Advanced Music Code (aoi.js | ver. 4.5.0 - 5.0.0)
 # Other Info
 
    (no credit on all commands)
-   Last update March 20 2022 - 23.26 WIB (GMT +7)
+   
+   Last update March 20 2022 - Eastern Time - 3:57:46 AM GMT -04:00
