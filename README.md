@@ -17,6 +17,7 @@
 # Run For Yourself?
 
 `Run on Replit`
+
 [![Run on Repl.it](https://repl.it/badge/github/CloudGamer131/Music-Bot-Template-Aoi-JS)](https://repl.it/github/CloudGamer131/Music-Bot-Template-Aoi-JS)
 
 `Run On Your Own VPS or home computer?`
