@@ -1,35 +1,22 @@
-/**
-
- * Advanced Music Code (aoi.js | ver. 4.5.0 - 5.0.0)
-   server.js / non-command handler
-
-   Require:
-    "opusscript": "^0.0.8"
-    "node-opus": "^0.3.3"
-    "@discordjs/opus": "^0.5.3"
-    "ffmpeg-static": "^4.4.0"
-    "ytdl-core": "^4.9.1"
-    "tweetnacl": "^1.0.3"
-
-   (no credit on all commands)
-   Last update March 20 2022 - 23.26 WIB (GMT +7)
- */
-
-//You can delete it, if already have it//
 const Aoijs = require("aoi.js")
 const { keep_alive } = require("./keep_alive.js")
 const bot = new Aoijs.Bot({
 token: process.env.token, 
-prefix: ["$getServerVar[prefix]"], //<- Change whatever with your prefix//
-mobile: true,
+prefix: ["$getServerVar[prefix]"], 
+mobile: true, //true or false
 connectedBots: true
 })
 
-//You can delete it, if already have it//
 bot.status({
-  text: "am.help | Music",
+  text: "?help | Music",
   type: "LISTENING",
   time: 5
+})
+
+  bot.status({
+    text: "$serverCount Servers",
+    type: "WATCHING",
+    time: 5
 })
 
   bot.status({
@@ -53,7 +40,6 @@ bot.readyCommand({
 //Customize Property For Message//
 bot.variables({
    prefix: ">", //set prefix to whatever you want
-  file: "server.js", //For reboot and stats//
   database: "./database/main/main_scheme_1.sql", //For stats//
 
   pause: "⏸️ Paused.",
@@ -68,7 +54,7 @@ bot.variables({
   errorqueue: "{title:❌ There no song was playing.} {color:FF0000}",
 
   join: "Joined Voice Channel to the {join}.", //Available {join}//
-  dc: "Disconnected.",
+  dc: "Disconnected From Voice Channel.",
 
   //Changing Other//
   clientidsoundcloud: "",
@@ -77,7 +63,7 @@ bot.variables({
   userid: "default",
   logmusic: "0",
   247: "2", //0 = off | 1 = on stay 2 minutes | 2 = stay 24/7//
-  channelstatus: "951657466138099782", //Change to your channel id, to send message when the bot restart.// 
+  channelstatus: "your_logs_channel_id", //Change to your channel id, to send message when the bot restart.// 
   vol: "50", //Default Volume//
   maxvol: "500", //Max Volume//
   last: "null",
